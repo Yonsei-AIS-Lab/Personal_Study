@@ -1,2 +1,2 @@
-# QR_platform
-산학협력 프로젝트
+# Personal_Study
+개인 공부 자료 업로드 공간
