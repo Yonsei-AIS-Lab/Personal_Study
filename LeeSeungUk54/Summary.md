@@ -101,3 +101,13 @@
 - 로컬 저장소에서 작업을 하다보면 main과 다른 파일을 저장하게 되는 경우가 있다
 - 이때 git pull명령어를 통해 현재 remote repository의 상태를 local로 불러올수 있다.
 
+## 다양한 merge 방식
+
+### 3-way merge 
+- 브랜치에 각각 신규 commit이 있는 경우 merge 명령을 내리면 두 브랜치의 코드를 합쳐서 새로운 commit을 자동으로 생성해주는데 이를 3-way merge라고 한다. 일반적인 merge의 동작이다.
+
+### fast-forward merge
+- 새로운 브랜치에만 commit 이 있고 기준이 되는 브랜치에는 신규 commit 이 없는 경우 합칠게 없어서 신규branch 를 main branch로 지정하는것
+
+### squash and merge
+- main 브랜치 git log 출력시 3-way merge된 브랜치들의 commit 내역도 다 같이 출력되어 지저분해지는 경우가 있는데 이때 squash and merge 하면 main 브랜치에 붙여주어 깔끔하게 log를 관리할수 있다.
