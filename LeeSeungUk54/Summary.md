@@ -77,16 +77,16 @@
 - git branch {branch name} 명령어로 branch를 만들고 
 - git switch {branch name} 으로 해당 branch로 전환하여 작업할수 있다.
 
-## git merge
+### git merge
 - 생성한 branch에서의 작업에 오류가 없고 완료되었다면 git merge 명령어로  해당 branch를 본 프로젝트에 합쳐 추가되거나 수정된 내용을 반영할수 있다.
 
-## 원격 repository
+### 원격 repository
 -지금까지 배운 내용은 로컬 레포지토리에서만 버전관리를 하는 과정이었다. 하지만 로컬 PC는 개인이 쓰기 떄문에 협업에는 적절하지 않다. 따라서 원격 레포지토리에서 add,commit하는 과정이 필요하고 이를 통해 여러사람이 같은 레포지토리를 편리하게 공유할수 있다.
 
-## git push
+#### git push
 - git push는 로컬에서 한 작업을 원격 레포지토리에 적용하거나 업로드하는 역할을 한다
 
-## git pull
+### git pull
 - 로컬 저장소에서 작업을 하다보면 main과 다른 파일을 저장하게 되는 경우가 있다
 - 이때 git pull명령어를 통해 현재 remote repository의 상태를 local로 불러올수 있다.
 
