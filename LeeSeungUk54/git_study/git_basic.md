@@ -24,6 +24,7 @@
 - git switch {branch name} 으로 해당 branch로 전환하여 작업할수 있다.
 - git status 입력시 현재 어떤 브랜치로 작업중인지 알수 있다.
 - git switch main 혹은 git switch master 명령어로 원래 브랜치로 돌아갈수 있다.
+- git branch -d {branch name} 으로 branch를 삭제할수있다.
 
 ## git merge
 - 생성한 branch에서의 작업에 오류가 없고 완료되었다면 git merge 명령어로  해당 branch를 본 프로젝트에 합쳐 추가되거나 수정된 내용을 반영할수 있다.
