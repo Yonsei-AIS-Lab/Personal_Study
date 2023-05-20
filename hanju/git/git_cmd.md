@@ -58,3 +58,5 @@
 
 # reset
  git reset --hard 커밋아이디 (커밋이 시작될 때로 되돌림)
+
+ a
