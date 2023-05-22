@@ -1,6 +1,6 @@
 ## 웹 동작의 구성 요소와 동작원리
 
-<img src="../img/web1.png">
+<img src="../img/web1.png" width="450" height="222">
 
 ### 웹 
 - 기본적으로 클라이언트와 서버와의 상호작용이 이뤄지게 되고 다른 여려 요소들의 요청과 응답으로 데이터를 받아온다.
@@ -20,7 +20,7 @@
 
 ### 구체적인 웹의 동작 원리
 
-<img src="../img/web2.png">
+<img src="../img/web2.png" width="600" height="332">
 
 - 사용자가 웹 브라우저를 통해 웹 페이지의 URL 주소를 입력하면, HTTP 요청 메시지를 생성함.
 - 생성된 요청 메시지는 인터넷을 거쳐 해당 주소의 컴퓨터로 전송됨.
@@ -85,7 +85,7 @@
 
 ## Node.js 요약
 
-<img src="../img/nodejs.png">
+<img src="../img/nodejs.png" width="200" height="80">
 
 ### Node.js의 기본 정보
 
@@ -118,7 +118,7 @@
 
 ## Git hub 요약 
 
-<img src="../img/github.png">
+<img src="../img/github.png" height="100",width="100">
 
 ### git이란?
 - git은 버전관리 소프트웨어로 프로젝트 진행시 작업한 코드를 기록하고 보관할수 있다 떄문에 프로젝트 진행시 버그가 있거나 실수로 코드를 잘못올린 경우 이전 버전으로 돌아가 편리하게 코드를 작성할수 있다.
