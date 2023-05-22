@@ -118,7 +118,7 @@
 
 ## Git hub 요약 
 
-<img src="../img/github.png" height="100",width="100">
+<img src="../img/github.png" height="100" width="100">
 
 ### git이란?
 - git은 버전관리 소프트웨어로 프로젝트 진행시 작업한 코드를 기록하고 보관할수 있다 떄문에 프로젝트 진행시 버그가 있거나 실수로 코드를 잘못올린 경우 이전 버전으로 돌아가 편리하게 코드를 작성할수 있다.
