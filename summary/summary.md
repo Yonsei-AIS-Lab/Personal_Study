@@ -18,7 +18,7 @@
 
 ### 구체적인 웹의 동작 원리
 
-<img src="../img/fowwebwork.png">
+<img src="../img/howwebwork.png">
 
 - 사용자가 웹 브라우저를 통해 웹 페이지의 URL 주소를 입력하면, HTTP 요청 메시지를 생성함.
 - 생성된 요청 메시지는 인터넷을 거쳐 해당 주소의 컴퓨터로 전송됨.
