@@ -1,6 +1,6 @@
 import React, {useState, Component} from 'react';
 import './App.css';
-import Example1 from './example';
+import Example3 from './example3';
 
 
 function App() {
@@ -19,7 +19,7 @@ const [inputData, setInputData] = useState([{
         <div>MENU</div>
       </div>
       <div>
-        <Example1/>
+        <Example3/>
       </div>
     </div>
   );
