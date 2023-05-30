@@ -1,23 +1,26 @@
-import logo from './logo.svg';
+import React, {useState, Component} from 'react';
 import './App.css';
+import Example1 from './example';
+
 
 function App() {
+/*
+let [title,setTitle] = useState(['요일','요일2']);
+
+const [inputData, setInputData] = useState([{
+  menu1: '',
+  menu2: '',
+  menu3: ''
+}])
+*/
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <div className="black-nav">
+        <div>MENU</div>
+      </div>
+      <div>
+        <Example1/>
+      </div>
     </div>
   );
 }
