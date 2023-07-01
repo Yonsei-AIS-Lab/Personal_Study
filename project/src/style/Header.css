@@ -1,0 +1,39 @@
+.logo {
+    height: 3rem;
+    width: 50%;
+    line-height: 3.5rem;
+    color: white;
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-align: center;
+    display: inline-block;
+} 
+.up_menu{
+    width: 50%;
+    display: inline-block;
+}
+.menu {
+    background-color: #343a40;
+    height: 4rem;
+    text-align: center;
+}
+
+.menu-item {
+    display: inline-block;
+    color: white;
+    font-size: 1rem;
+    line-height: 3rem;
+    width: 10%;
+    text-align: center;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    text-decoration: none;
+}
+
+.menu-item:hover {
+    background-color: #495057;
+}
+
+.menu-item:active, .menu-item.active {
+    background-color: #1862ab;
+}
