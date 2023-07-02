@@ -32,7 +32,7 @@ const App = (props) => {
           <Route path="/join" element={<Join />} />
         </Routes>
         </div>
-      {/* <Footer/> */}
+      <Footer/>
     </div>
   );
 };
