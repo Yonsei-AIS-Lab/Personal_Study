@@ -14,3 +14,6 @@
 
 ### 관리자
 <img src="../img/view_5.jpg" height="400" width="600">
+
+### 관리자
+<img src="../img/view_5.jpg" height="400" width="600">
