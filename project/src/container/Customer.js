@@ -1,11 +1,22 @@
 import React from 'react';
+import styled from "styled-components";
+
+import CustomerSidebar from '../component/Sidebar/CustomerSidebar';
+
+const Body = styled.div`
+  height: 92vh;
+  display: flex;
+  flex-direction: row;
+`
 
 const Customer = () => {
   return (
-    <div>
-      <h1>고객용</h1>
-      <p>고객용 페이지</p>
-    </div>
+    <Body>
+      <CustomerSidebar />
+      <div>
+        <h4>Customer</h4>
+      </div>
+    </Body>
   );
 };
 

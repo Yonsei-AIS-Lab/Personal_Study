@@ -1,11 +1,22 @@
 import React from 'react';
+import styled from "styled-components";
+
+import ManageSidebar from '../component/Sidebar/ManageSidebar';
+
+const Body = styled.div`
+  height: 92vh;
+  display: flex;
+  flex-direction: row;
+`
 
 const Manage = () => {
   return (
+        <Body>
+        <ManageSidebar/>
         <div>
-        <h1>관리자</h1>
-        <p>관리자용 페이지</p>
+        <h4>Manage</h4>
         </div>
+        </Body>
   );
 };
 
