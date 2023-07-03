@@ -1,4 +1,5 @@
 import React from 'react';
+import Footer from '../component/Footer';
 
 const Home = () => {
   return (
@@ -9,6 +10,7 @@ const Home = () => {
         <div className='main_visual'>
 
         </div>
+        <Footer/>
         </div>
   );
 };

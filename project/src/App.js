@@ -4,7 +4,7 @@ import { Route, Routes} from 'react-router-dom';
 
 // import {Header,Footer} from './component';
 import Header from './component/Header';
-import Footer from './component/Footer';
+
 
 // import {Home,Customer,Company,Manage,Mypage,Join,Login} from './container';
 import Home from './container/Home';
@@ -21,7 +21,7 @@ const App = (props) => {
   return (
     <div>
       <Header/>
-        <div>
+        <div id ='body'>
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/customer" element={<Customer />} />
@@ -32,7 +32,6 @@ const App = (props) => {
           <Route path="/join" element={<Join />} />
         </Routes>
         </div>
-      <Footer/>
     </div>
   );
 };

@@ -1,10 +1,11 @@
 import React from 'react';
-import {LoginWrapper, Content, LabelInput, Button} from '../component/Auth';
+import {Content, LabelInput, Button} from '../component/Auth';
+import JoinWrapper from '../component/Auth/JoinWrapper';
 
 const Login = ({title,children}) => {
   return (
         <div>
-        <LoginWrapper>
+        <JoinWrapper>
           <Content title="회원가입">
             <LabelInput label="이름" name="email" placeholder="이메일"/>
             <LabelInput label="생년월일" name="email" placeholder="이메일"/>
@@ -14,7 +15,7 @@ const Login = ({title,children}) => {
             <LabelInput label="비밀번호 확인" name="password" placeholder="비밀번호" type="password"/>
             <Button>회원가입</Button>
           </Content>
-        </LoginWrapper>
+        </JoinWrapper>
         </div>
         
   );

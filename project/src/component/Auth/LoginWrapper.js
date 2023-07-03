@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 
 // 화면의 중앙에 위치시킨다
 const Positioner = styled.div`
-    margin-top: 8rem;
+    margin-top: 1rem;
     position: absolute;
     top: 50%;
     left: 50%;
