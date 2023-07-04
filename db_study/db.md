@@ -19,13 +19,13 @@
 # 예비 테이블 만들기
 - 엔티티 목록을 뽑고, 필요한 속성을 구상
 
-<img src="../img/table_tmp.png" height="100" width="100">
+<img src="../img/table_tmp.png" height="440" width="220">
 
 # 다중값 또는 다중 부분 필드 제거
 - 다중 값 필드와 다중 부분 필드는 그 안에 데이터를 수정, 삭제, 정렬, 그룹화하기가 어렵기 때문에 피하는 것이 좋음. 
 
-<img src="../img/table_NF.png" height="100" width="100">
+<img src="../img/table_NF.png" height="580" width="410">
 
 # ERD설계
 - 
-<img src="../img/table_erd.png" height="100" width="100">
+<img src="../img/table_erd.png" height="507" width="365">
